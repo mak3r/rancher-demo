@@ -1,0 +1,20 @@
+questions:
+- variable: cow_color
+  default: "yellow"
+  description: "The colour of the cow!"
+  type: enum
+  label: Cow Colour
+  required: true
+  options:
+    - "yellow"
+    - "red"
+    - "orange"
+    - "yellow"
+    - "olive"
+    - "green"
+    - "teal"
+    - "blue"
+    - "violet"
+    - "purple"
+    - "pink"
+    - "black"

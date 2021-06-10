@@ -45,6 +45,12 @@ spec:
             httpGet:
               path: /
               port: http
+          env:
+            - name: COW_COLOR
+              value: {{ .Values.cow_color | quote }}
+          env:
+            - name: COW_COLOR
+              value: {{ .Values.cow_color | quote }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
